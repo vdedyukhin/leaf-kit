@@ -1,11 +1,8 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
     name: "leaf-kit",
-    platforms: [
-       .macOS(.v10_15)
-    ],
     products: [
         .library(name: "LeafKit", targets: ["LeafKit"]),
     ],
